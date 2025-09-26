@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Namaste North</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo-minimal.svg" alt="Namaste North" style="height: 45px;">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about-me.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="book-with-me.html" class="nav-link">Book with Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="contact-header" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1558522195-e1201b090344?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: contain; background-position: center; background-repeat: no-repeat; background-attachment: fixed; color: white; padding: 100px 0; text-align: center; min-height: 60vh;">
+        <div class="container">
+            <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Get In Touch</h1>
+            <p style="color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.7);">Have questions about mountain travel? Want to share your own adventures? I'd love to hear from you!</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Send Me a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic</option>
+                                <option value="travel-advice">Travel Advice</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="question">General Question</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell me about your mountain adventures or ask me anything!"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h2>Connect With Me</h2>
+                    
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">📧</div>
+                            <div class="info-content">
+                                <h3>Email</h3>
+                                <p>hello@namastenorth.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">📱</div>
+                            <div class="info-content">
+                                <h3>Social Media</h3>
+                                <p>Follow my adventures on Instagram and YouTube</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">🌍</div>
+                            <div class="info-content">
+                                <h3>Location</h3>
+                                <p>Currently exploring the Swiss Alps</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">⏰</div>
+                            <div class="info-content">
+                                <h3>Response Time</h3>
+                                <p>I typically respond within 24-48 hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="faq-section">
+                        <h3>Frequently Asked Questions</h3>
+                        <div class="faq-item">
+                            <h4>What's the best time to visit the Himalayas?</h4>
+                            <p>The best time is during the pre-monsoon season (March to May) and post-monsoon season (September to November) when the weather is clear and stable.</p>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h4>Do you offer guided tours?</h4>
+                            <p>I occasionally organize small group adventures. Contact me for upcoming trips and availability.</p>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h4>Can I share my mountain photos with you?</h4>
+                            <p>Absolutely! I love seeing other people's mountain adventures. Send them my way and I might feature them on the blog!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="recent-adventures">
+        <div class="container">
+            <h2>Recent Adventures</h2>
+            <p class="adventures-subtitle">Follow my latest trekking expeditions across Nepal's most spectacular mountain ranges</p>
+            
+            <div class="adventures-grid">
+                <div class="adventure-card">
+                    <div class="adventure-image">
+                        <img src="4.jpg" alt="Langtang Valley Trek">
+                        <div class="adventure-overlay">
+                            <span class="adventure-location">Langtang Valley</span>
+                        </div>
+                    </div>
+                    <div class="adventure-content">
+                        <h3>Langtang Valley Trek</h3>
+                        <p>Completed a 7-day journey through pristine valleys and traditional Tamang villages</p>
+                        <div class="adventure-stats">
+                            <span class="stat">7 Days</span>
+                            <span class="stat">3,870m</span>
+                            <span class="stat">Moderate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="adventure-card">
+                    <div class="adventure-image">
+                        <img src="https://plus.unsplash.com/premium_photo-1661818656011-a6228aabafe0?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Everest Base Camp Trek">
+                        <div class="adventure-overlay">
+                            <span class="adventure-location">Everest Region</span>
+                        </div>
+                    </div>
+                    <div class="adventure-content">
+                        <h3>Everest Base Camp</h3>
+                        <p>Reached the base of the world's highest mountain through the iconic Khumbu Valley</p>
+                        <div class="adventure-stats">
+                            <span class="stat">14 Days</span>
+                            <span class="stat">5,364m</span>
+                            <span class="stat">Challenging</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="adventure-card">
+                    <div class="adventure-image">
+                        <img src="https://images.unsplash.com/photo-1674763767060-fe392a9fda22?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Annapurna Circuit Trek">
+                        <div class="adventure-overlay">
+                            <span class="adventure-location">Annapurna Region</span>
+                        </div>
+                    </div>
+                    <div class="adventure-content">
+                        <h3>Annapurna Circuit</h3>
+                        <p>Circumnavigated the entire Annapurna massif through diverse landscapes and cultures</p>
+                        <div class="adventure-stats">
+                            <span class="stat">12 Days</span>
+                            <span class="stat">5,416m</span>
+                            <span class="stat">Moderate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="adventure-cta">
+                <h3>Ready for Your Next Adventure?</h3>
+                <p>Join me on one of these incredible treks and experience the magic of Nepal's mountains</p>
+                <a href="book-with-me.html" class="cta-button">Book Your Trek</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Namaste North</h3>
+                    <p>Exploring the world's most beautiful mountains, one peak at a time.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="book-with-me.html">Book with Me</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow My Journey</h4>
+                    <p>Stay updated with my latest mountain adventures and travel tips.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/aadarshchhetri" target="_blank" rel="noopener" class="social-link">
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://facebook.com/aadarshchhetri" target="_blank" rel="noopener" class="social-link">
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://youtube.com/@aadarshchhetri" target="_blank" rel="noopener" class="social-link">
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                            <span>YouTube</span>
+                        </a>
+                        <a href="https://tiktok.com/@aadarshchhetri" target="_blank" rel="noopener" class="social-link">
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+                            </svg>
+                            <span>TikTok</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Namaste North. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const subject = formData.get('subject');
+            const message = formData.get('message');
+            
+            // Simple validation
+            if (!name || !email || !subject || !message) {
+                alert('Please fill in all fields.');
+                return;
+            }
+            
+            // Simulate form submission
+            alert(`Thank you, ${name}! Your message about "${subject}" has been sent. I'll get back to you soon!`);
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+</html>

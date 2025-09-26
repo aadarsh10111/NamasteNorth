@@ -1,0 +1,15 @@
+<svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimal mountain icon -->
+  <path d="M8 32 L16 24 L24 28 L32 20 L40 24 L48 18 L56 22 L64 16 L72 20 L80 14 L88 18 L96 12 L104 16 L112 10 L120 14 L128 8 L136 12 L144 6 L152 10 L160 8 L160 40 L8 40 Z" 
+        fill="#007AFF" 
+        opacity="0.8"/>
+  
+  <!-- Company name -->
+  <text x="80" y="18" 
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" 
+        font-size="14" 
+        font-weight="600" 
+        text-anchor="middle" 
+        fill="#1d1d1f" 
+        letter-spacing="-0.2px">Namaste North</text>
+</svg>

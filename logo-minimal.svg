@@ -1,0 +1,16 @@
+<svg width="200" height="48" viewBox="0 0 200 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Namaste North logo">
+  <!-- Left icon: simple mountain outline, crisp at small sizes -->
+  <g transform="translate(8,8)">
+    <path d="M0 24 L16 8 L26 18 L36 10 L52 24" fill="none" stroke="#007AFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="26" cy="18" r="1.6" fill="#007AFF"/>
+  </g>
+
+  <!-- Wordmark: system font, balanced spacing, tuned for small sizes -->
+  <g transform="translate(72,14)">
+    <text x="0" y="12" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#1d1d1f" letter-spacing="-0.3px">Namaste North</text>
+    <text x="0" y="28" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="500" fill="#8e8e93" letter-spacing="1px">TREKKING</text>
+  </g>
+
+  <!-- Safe padding to avoid clipping -->
+  <rect x="0.5" y="0.5" width="199" height="47" fill="none" stroke="transparent"/>
+</svg>

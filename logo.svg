@@ -1,0 +1,29 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mountain peaks -->
+  <path d="M10 45 L25 25 L40 35 L55 20 L70 30 L85 15 L100 25 L115 10 L130 20 L145 5 L160 15 L175 25 L190 35 L200 30 L200 60 L10 60 Z" 
+        fill="#007AFF" 
+        opacity="0.9"/>
+  
+  <!-- Secondary mountain layer -->
+  <path d="M15 50 L30 35 L45 40 L60 30 L75 35 L90 25 L105 30 L120 20 L135 25 L150 15 L165 20 L180 25 L195 30 L200 28 L200 60 L15 60 Z" 
+        fill="#007AFF" 
+        opacity="0.6"/>
+  
+  <!-- Company name -->
+  <text x="100" y="25" 
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" 
+        font-size="18" 
+        font-weight="600" 
+        text-anchor="middle" 
+        fill="#1d1d1f" 
+        letter-spacing="-0.5px">Namaste North</text>
+  
+  <!-- Tagline -->
+  <text x="100" y="42" 
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" 
+        font-size="10" 
+        font-weight="400" 
+        text-anchor="middle" 
+        fill="#6e6e73" 
+        letter-spacing="0.5px">MOUNTAIN ADVENTURES</text>
+</svg>
